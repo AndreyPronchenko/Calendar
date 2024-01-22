@@ -1,0 +1,23 @@
+#calendar {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+#calendar>div {
+    display: grid;
+    grid-template-columns: repeat(7, 30px);
+    grid-template-rows: 30px;
+    column-gap: 12px;
+    row-gap: 5px;
+    margin: 12px 37px;
+    text-align: center; 
+  }
+  
+  
+.title { 
+    grid-column: span 7;
+  }
+.holiday { 
+    color: red; 
+  }
+
